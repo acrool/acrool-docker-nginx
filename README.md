@@ -1,11 +1,19 @@
-bear-docker-nginx
-====================================================
+# Acrool Docker Nginx
 
-Add the module (njs, http_headers_more) to the official method, and provide the basic template out of the box
+
+<a href="https://github.com/acrool/acrool-docker-nginx" title="Acrool Docker Nginx - Docker nginx add the module (njs, http_headers_more)">
+    <img src="https://raw.githubusercontent.com/acrool/acrool-docker-nginx/main/public/og.png" alt="Acrool Docker Nginx Logo"/>
+</a>
+
+<p align="center">
+   Docker nginx add the module (njs, http_headers_more) to the official method, and provide the basic template out of the box
+</p>
+
+
 
 ## Getting Started
 ```bash
-$ git clone https://github.com/imagine10255/bear-docker-nginx.git site-dev
+$ git clone https://github.com/acrool/acrool-docker-nginx.git site-dev
 $ cd site-dev
 
 # remove git version control
@@ -55,7 +63,7 @@ volumes:
 ## Reference Architecture:
 
 ```txt
-bear-docker-nginx
+acrool-docker-nginx
 ├── config/nginx
 |           ├── conf.d           # site config
 |           ├── site-module      # site module
@@ -75,11 +83,11 @@ ARG ENABLED_MODULES="ndk headers-more"
 
 run build
 ```bash
-$ docker build . -t imagine10255/bear-docker-nginx:1.0.8
-$ docker push imagine10255/bear-docker-nginx:1.0.8
+$ docker build . -t acrool/acrool-nginx:1.0.8
+$ docker push acrool/acrool-nginx:1.0.8
 
-$ docker tag imagine10255/bear-docker-nginx:1.0.8 imagine10255/bear-docker-nginx:latest
-$ docker push imagine10255/bear-docker-nginx:latest
+$ docker tag acrool/acrool-nginx:1.0.8 acrool/acrool-nginx:latest
+$ docker push acrool/acrool-nginx:latest
 ```
 
 ## Ref

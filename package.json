@@ -1,13 +1,13 @@
 {
-  "name": "bear-docker-nginx",
+  "name": "acrool-docker-nginx",
   "description": "Add the module (njs, http_headers_more) to the official method, and provide the basic template out of the box\n\n",
   "version": "1.0.9",
   "private": true,
-  "author": "imagine10255@gmail.com",
+  "author": "info@acrool.com",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/imagine10255/bear-docker-nginx"
+    "url": "https://github.com/acrool/acrool-docker-nginx"
   },
   "engines": {
     "npm": ">=6",
